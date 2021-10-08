@@ -1,0 +1,20 @@
+﻿using Unify.DataStructures;
+using Unify.Helpers;
+
+namespace UnifyPackets.{{NameSpacePath}}
+{
+    public class {{PacketInfoName}} : PacketInfo
+    {
+        {{Properties}}
+
+        public {{PacketInfoName}}(ref ByteBuffer buffer)
+        {
+            {{Deserialize Properties}}
+        }
+        public void GetBytes(ref ByteBuffer buffer)
+        {
+            {{Serialize Properties}}
+        }
+
+    }
+}

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace UnifyGenerator
 {
@@ -6,7 +7,9 @@ namespace UnifyGenerator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Out.WriteLine("Press enter to create a new PackageInfo"); 
+            Console.ReadLine();
+            var packetGenerator = new PacketInfoGenerator();
         }
     }
 }
