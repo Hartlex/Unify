@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifyTestClient", "UnifyTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifyTest", "UnifyTest\UnifyTest.csproj", "{DA152A36-A6E9-43C9-B410-7044754B8319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifyPackets", "UnifyPackets\UnifyPackets.csproj", "{5A8120CA-2B99-44BE-BE67-46CE367F8F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifyPackets", "UnifyPackets\UnifyPackets.csproj", "{5A8120CA-2B99-44BE-BE67-46CE367F8F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifyGenerator", "UnifyGenerator\UnifyGenerator.csproj", "{20C51494-C90E-49F0-BFDB-72977D14BE68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5A8120CA-2B99-44BE-BE67-46CE367F8F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8120CA-2B99-44BE-BE67-46CE367F8F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8120CA-2B99-44BE-BE67-46CE367F8F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C51494-C90E-49F0-BFDB-72977D14BE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C51494-C90E-49F0-BFDB-72977D14BE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C51494-C90E-49F0-BFDB-72977D14BE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C51494-C90E-49F0-BFDB-72977D14BE68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
